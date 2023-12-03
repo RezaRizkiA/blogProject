@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - project UAS</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+    href="/css/app-wa-2e45578ecf3b28ce6383d10b8c0bf4d0.css?vsn=d">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-thin.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-solid.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-regular.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-light.css">
+</head>
+
+<body>
+  <!-- nav start -->
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html" class="nav__logo">BSIBlog</a>
+      <ul class="nav__items">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- <li><a href="signin.html">Signin</a></li> -->
+        <li class="nav__profile">
+          <div class="avatar">
+            <img src="./images/avatar1.jpg" alt="">
+          </div>
+          <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="logout.html">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+      <button id="open__nav-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
+      <button id="close__nav-btn"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+    </div>
+  </nav>
+  <!-- nav end -->
+
+  <section class="form__section">
+    <div class="container form__section-container">
+      <h2>Add User</h2>
+      <div class="alert__message error">
+        <p>This is an error message</p>
+      </div>
+      <form action="" enctype="multipart/form-data">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="User Name">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Create Password">
+        <input type="text" placeholder="Confirm Password">
+        <select>
+          <option value="0">Author</option>
+          <option value="1">Admin</option>
+        </select>
+        <div class="form__control">
+          <label for="avatar">User Avatar</label>
+          <input type="file" id="avatar">
+        </div>
+        <button type="submit" class="btn">Add User</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer start -->
+  <footer>
+    <div class="footer__socials">
+      <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="container footer__container">
+      <article>
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Art</a></li>
+          <li><a href="#">Travel</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Social Media</a></li>
+          <li><a href="#">Subscribe</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="#">Art</a></li>
+          <li><a href="#">Travel</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Content</a></li>
+        </ul>
+      </article>
+    </div>
+    <div class="footer__copyright">
+      <small>Copyright &copy; 2023 BSIBlog</small>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

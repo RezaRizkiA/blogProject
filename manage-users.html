@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - project UAS</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+    href="/css/app-wa-2e45578ecf3b28ce6383d10b8c0bf4d0.css?vsn=d">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-thin.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-solid.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-regular.css">
+
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/sharp-light.css">
+</head>
+
+<body>
+  <!-- nav start -->
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html" class="nav__logo">BSIBlog</a>
+      <ul class="nav__items">
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- <li><a href="signin.html">Signin</a></li> -->
+        <li class="nav__profile">
+          <div class="avatar">
+            <img src="./images/avatar1.jpg" alt="">
+          </div>
+          <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="logout.html">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+      <button id="open__nav-btn"><i class="fa-sharp fa-solid fa-bars"></i></button>
+      <button id="close__nav-btn"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+    </div>
+  </nav>
+  <!-- nav end -->
+
+  <section class="dashboard">
+    <div class="container dashboard__container">
+      <button id="show__sidebar-btn" class="sidebar__toggle"><i class="fa-solid fa-right"></i></button>
+      <button id="hide__sidebar-btn" class="sidebar__toggle"><i class="fa-solid fa-left"></i></button>
+      <aside>
+        <ul>
+          <li>
+            <a href="add-post.html">
+              <i class="fa-regular fa-pen"></i>
+              <h5>Add Post</h5>
+            </a>
+          </li>
+          <li>
+            <a href="dashboard.html">
+              <i class="fa-sharp fa-solid fa-square-rss"></i>
+              <h5>Manage Posts</h5>
+            </a>
+          </li>
+          <li>
+            <a href="add-user.html">
+              <i class="fa-regular fa-user-plus"></i>
+              <h5>Add User</h5>
+            </a>
+          </li>
+          <li>
+            <a href="manage-users.html" class="active">
+              <i class="fa-regular fa-users"></i>
+              <h5>Manage User</h5>
+            </a>
+          </li>
+          <li>
+            <a href="add-category.html">
+              <i class="fa-light fa-pen-to-square"></i>
+              <h5>Add Category</h5>
+            </a>
+          </li>
+          <li>
+            <a href="manage-categories.html" >
+              <i class="fa-regular fa-layer-group"></i>
+              <h5>Manage Category</h5>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <main>
+        <h2>Manage Users</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Username</th>
+              <th>Edit</th>
+              <th>Delete</th>
+              <th>Admin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Reza Rizki</td>
+              <td>Reza123</td>
+              <td><a href="edit-user.html" class="btn sm">Edit</a></td>
+              <td><a href="delete-user.html" class="btn sm danger">Delete</a></td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Reza Rizki</td>
+              <td>Reza123</td>
+              <td><a href="edit-user.html" class="btn sm">Edit</a></td>
+              <td><a href="delete-user.html" class="btn sm danger">Delete</a></td>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </section>
+
+  <!-- footer start -->
+  <footer>
+    <div class="footer__socials">
+      <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="container footer__container">
+      <article>
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Art</a></li>
+          <li><a href="#">Travel</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Social Media</a></li>
+          <li><a href="#">Subscribe</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="#">Art</a></li>
+          <li><a href="#">Travel</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </article>
+      <article>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Content</a></li>
+        </ul>
+      </article>
+    </div>
+    <div class="footer__copyright">
+      <small>Copyright &copy; 2023 BSIBlog</small>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
